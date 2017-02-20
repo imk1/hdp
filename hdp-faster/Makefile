@@ -4,8 +4,8 @@ CC = g++ -Wall
 # CFLAGS = -g -Wall
 LDFLAGS = -lgsl -lm -lgslcblas #-latlas
 
-GSL_INCLUDE = /usr/local/include
-GSL_LIB = /usr/local/lib
+GSL_INCLUDE = /users/imk1/include
+GSL_LIB = /users/imk1/lib
 
 GSL_INCLUDE_MAC = $(GSL_INCLUDE) 
 GSL_LIB_MAC = $(GSL_LIB)

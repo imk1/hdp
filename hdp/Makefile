@@ -3,8 +3,8 @@ CC = g++ -Wall
 # CFLAGS = -g -Wall
 LDFLAGS = -lgsl -lm -lgslcblas
 
-GSL_INCLUDE = /usr/local/include
-GSL_LIB = /usr/local/lib
+GSL_INCLUDE = /users/imk1/include
+GSL_LIB = /users/imk1/lib
 
 LSOURCE =  utils.cpp corpus.cpp state.cpp hdp.cpp main.cpp
 LHEADER =  utils.h corpus.h hdp.h state.h
